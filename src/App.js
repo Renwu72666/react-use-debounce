@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import UseDebounce from './Example1/Example1';
+import logo from './logo.svg'
+import './App.css'
+import UseDebounce from './Example2/Example2'
 function App() {
   return (
     <div className="App">
@@ -8,7 +8,7 @@ function App() {
         <UseDebounce></UseDebounce>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
