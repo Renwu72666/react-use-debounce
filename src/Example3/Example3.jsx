@@ -6,7 +6,7 @@ const Example2 = () => {
     const [resultObj, setResultObj] = useState([]);
 
     const handleClick = useDebounceHook(() => {
-        console.log('{send info}')
+        console.log(resultObj)
     }, 
     1000,
     {
@@ -48,7 +48,7 @@ const Example2 = () => {
     <>
         <h3>Common Search </h3>
         <input type="text" value={search} onChange={handleChange} />
-        <button onClick={handleClick}>只會有第一次</button>
+        <button onClick={handleClick}>Submit</button>
     </>
  )
 };
